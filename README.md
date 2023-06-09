@@ -30,17 +30,17 @@ One of the main challenges I faced was handling special characters and maintaini
 I am proud to have created a fully functional Caesar Cipher encryption and decryption program within the given timeframe. The application provides a smooth and intuitive user experience, making it easy for anyone to secure their messages using this classic encryption technique. I am also proud of the attention to detail in preserving the original message formatting, allowing for seamless communication.
 
 ## What I learned🎓
-During the development of CipherX, I deepened my understanding of JavaScript string manipulation, including how to iterate through characters, apply transformations, and handle special cases. I also gained valuable experience in building responsive web applications that adapt to different screen sizes and browsers. Additionally, working as a solo me the importance of time management and creative thinking to deliver a successful project.
+During the development of CipherX, I deepened my understanding of JavaScript string manipulation, including how to iterate through characters, apply transformations, and handle special cases. I also gained valuable experience in building responsive web applications that adapt to different screen sizes and browsers. Additionally, working as a solo helps me to know the importance of time management and creative thinking to deliver a successful project.
 
 ## What's next for CipherX🔜
 In the future, I am planning to enhance CipherX with additional encryption methods, such as substitution ciphers or more advanced cryptographic algorithms. I also aim to add features like key generation and password protection to further enhance the security of the encrypted messages. Additionally, I will focus on optimizing the application's performance and expanding its compatibility to reach a wider audience.
 
 
 ## Screenshots 🖼️
-![Cover](./img/cover.jpg)
-![Main1](./img/main1.jpg)
-![Main1](./img/main2.jpg)
-![Main1](./img/footer.jpg)
+![Cover](./images/cover.png)
+![Main](./images/main.png)
+![Encoding](./images/encoding.png)
+![Decoding](./images/decoding.png)
 
 
 ## Contact 📩

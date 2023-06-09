@@ -1,9 +1,10 @@
 # CipherX - Securing Secrets with the Power of Caesar's Cipher
 > CipherX is a web-based application that enables users to encrypt and decrypt messages using the Caesar Cipher algorithm. It provides a user-friendly interface where users can input their messages, choose a shift value, and instantly see the encrypted or decrypted result.
-> Live demo [_here_](https://aman-chhetri.github.io/cipher-x/). <!-- Project Link -->
+
+> Live demo: [_here_](https://aman-chhetri.github.io/cipher-x/). <!-- Project Link -->
 
 ## Table of Contents
-* [Inspiration 💡](#inspiration)
+* [Inspiration 💡](#inspirations)
 * [What it does ⚙️](#what_it_does)
 * [How I built it 🛠️](#built)
 * [Challenges I ran into 😓](#challenges)
@@ -38,11 +39,14 @@ In the future, I am planning to enhance CipherX with additional encryption metho
 
 ## Screenshots 🖼️
 ![Cover](./images/cover.png)
-Main Page
+
+### Main Page
 ![Main](./images/main.png)
-Encoding Plain Text
+
+### Encoding Plain Text
 ![Encoding](./images/encoding.png)
-Decoding Cipher Text
+
+### Decoding Cipher Text
 ![Decoding](./images/decoding.png)
 
 

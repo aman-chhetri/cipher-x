@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Caesar Cipher</title>
+	<meta name="author" content="Aman Kshetri">
+	<meta name="description" content="Caesar Cipher">
+
+	<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+	<link rel="apple-touch-icon" href="images/favicon.png" type="image/x-icon">
+	<link rel="icon" sizes="192x192" href="images/favicon.png" type="image/x-icon">
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+</head>
+
+<body>
+	<!-- Image and text -->
+	<nav class="navbar navbar-dark bg-success">
+		<a class="navbar-brand" href="#">
+			<img src="/images/favicon.png" width="30" height="30" class="d-inline-block align-top" alt="Logo">
+			CipherX
+		</a>
+	</nav>
+	
+	<div class="container mt-3">
+		<h1 class="text-center">Caesar Cipher🔐</h1>
+		<div class="form-group">
+			<textarea class="form-control" id="input" rows="5" cols="50" placeholder="Input Text..."></textarea>
+		</div>
+		<div class="form-group">
+			<label for="key">Key🔑</label>
+			<input class="form-control" type="number" id="key" name="key" value="3" required>
+		</div>
+		<div class="form-group">
+			<label for="charset">Character Set📃</label>
+			<select class="form-control" id="charset" name="charset">
+				<option value="ABCDEFGHIJKLMNOPQRSTUVWXYZ">Case-Insensitive Alphabetic</option>
+				<option value="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz">Alphabetic</option>
+				<option value="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789">Alphanumeric</option>
+				<option
+					value="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!&quot;#$%&amp;'()*+,-./:;&lt;=&gt;?@[\\]^_`{|}~">
+					All</option>
+			</select>
+			<div class="form-check form-switch">
+				<input class="form-check-input" type="checkbox" id="include-space">
+				<label class="form-check-label" for="include-space">Include Space</label>
+			</div>
+		</div>
+		<div class="form-group">
+			<label>Mode: </label>
+			<button type="button" onclick="cipher()" class="btn btn-danger" id="encode-btn"
+				autocomplete="off">Encode🔒</button>
+			<button type="button" onclick="cipher(false)" class="btn btn-success" id="decode-btn"
+				autocomplete="off">Decode🔓</button>
+		</div>
+		<div class="form-group">
+			<textarea class="form-control" id="output" rows="5" placeholder="Output Text..." readonly></textarea>
+		</div>
+		<div class="form-group">
+			<button type="button" onclick="copy()" class="btn btn-primary">Copy📋</button>
+			<button type="button" onclick="apply()" class="btn btn-secondary">Apply</button>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>

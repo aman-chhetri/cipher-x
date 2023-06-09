@@ -38,8 +38,11 @@ In the future, I am planning to enhance CipherX with additional encryption metho
 
 ## Screenshots 🖼️
 ![Cover](./images/cover.png)
+Main Page
 ![Main](./images/main.png)
+Encoding Plain Text
 ![Encoding](./images/encoding.png)
+Decoding Cipher Text
 ![Decoding](./images/decoding.png)
 
 
